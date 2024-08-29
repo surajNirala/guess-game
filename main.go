@@ -13,7 +13,7 @@ import (
 func main() {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	target := r.Intn(100) + 1
-	fmt.Println(target)
+	// fmt.Println(target)
 	Describe()
 	reader := bufio.NewReader(os.Stdin)
 	for {
